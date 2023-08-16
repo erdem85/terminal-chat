@@ -4,9 +4,9 @@ In case you don't know, ARP is a protocol that allows computers to find each oth
 
 ## Limitations
 
-you cannot talk to people on other networks
+You cannot talk to people on other networks with terminalchat. It is only designed to work on the same local network
 
-## things i made terminal-chat do
+## Things I made terminal-chat do
 
 I have implemented a generalizable transport protocol on top of ARP, which allows you to send messages that are tens of thousands of characters long. I have also added a bit of compression to improve performance.
 
@@ -16,7 +16,7 @@ In addition to join and leave notifications, I have also built an entire presenc
 
 ## Running
 
-If you would like to install arpchat, you can download it from the releases page: https://github.com/erdem85/terminal-chat/releases/latest.
+If you would like to install terminalchat, you can download it from the releases page: https://github.com/erdem85/terminal-chat/releases/latest.
 
 On Windows, you will likely need to install npcap: https://npcap.com/#download. Make sure to check the "Install Npcap in WinPcap API-compatible Mode" option in the installer!
 
@@ -33,7 +33,7 @@ Then run the binary in a terminal. You can verify that it is working properly by
 
 ## Building
 
-I don't recommend building arpchat yourself. However, if you do decide to build it, you will need to use the latest unstable version of Rust.
+I don't recommend building terminalchat yourself. However, if you do decide to build it, you will need to use the latest unstable version of Rust.
 
 On Windows, you will also need to download the WinPcap Developer's Pack and set the LIB environment variable to the WpdPack/Lib/x64/ folder.
 
